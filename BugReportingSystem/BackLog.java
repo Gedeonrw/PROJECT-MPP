@@ -9,6 +9,13 @@ public class BackLog {
 	private LocalDate createDate;
 	private BugStatus bugStatus;
 	private LocalDate resolvedDate;
+	
+	private BugStatus bugs;
+	private Tester testor;
+	private Project project;
+	private Admin admin;
+	private Developer developer;
+	
 	public BackLog(String bugId, String bugTitle, String description, LocalDate createDate, BugStatus bugStatus,
 			LocalDate resolvedDate) {
 		

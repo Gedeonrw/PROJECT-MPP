@@ -1,8 +1,13 @@
 package BugReportingSystem;
 
+import java.util.List;
+
 public class Developer extends User{
 
-	private DeveloperType type;
+	List<Type> type;
+	private Project projet;
+	private BackLog backLog;
+	
 	
 	public Developer(String userName, Integer userId) {
 		super(userName, userId);

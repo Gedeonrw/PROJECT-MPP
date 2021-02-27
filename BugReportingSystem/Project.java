@@ -1,9 +1,15 @@
 package BugReportingSystem;
 
+import java.util.List;
+
 public class Project {
 
 	private String projectName;
 	private String projectId;
+	
+	List<Developer> developers;
+	List<Tester> testers;
+	
 	public Project(String projectName, String projectId) {
 		
 		this.projectName = projectName;
