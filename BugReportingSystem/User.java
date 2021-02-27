@@ -1,22 +1,22 @@
 package BugReportingSystem;
 
 public class User {
-	private String userName;
-	private Integer userId;
+	private String name;
+	private Integer id;
 	public User(String userName, Integer userId) {
 		
-		this.userName = userName;
-		this.userId = userId;
+		this.name = userName;
+		this.id = userId;
 	}
 	public String getUserName() {
-		return userName;
+		return name;
 	}
 	public Integer getUserId() {
-		return userId;
+		return id;
 	}
 	@Override
 	public String toString() {
-		return "User [userName=" + userName + ", userId=" + userId + "]";
+		return "User [userName=" + name + ", userId=" + id + "]";
 	}
 	
 	

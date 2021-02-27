@@ -7,8 +7,8 @@ public class Tester extends User{
 	private Project project;
 	List<BackLog> backLogs;
 	
-	public Tester(String userName, Integer userId) {
-		super(userName, userId);
+	public Tester(String name, Integer id) {
+		super(name, id);
 		
 	}
 

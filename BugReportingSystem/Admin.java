@@ -5,8 +5,9 @@ import java.util.List;
 public class Admin extends User{
 	
 	List<BackLog>  logs;
-	public Admin(String userName, Integer userId) {
-		super(userName, userId);
+	
+	public Admin(String name, Integer id) {
+		super(name, id);
 		
 	}
 	

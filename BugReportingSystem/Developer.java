@@ -9,8 +9,8 @@ public class Developer extends User{
 	private BackLog backLog;
 	
 	
-	public Developer(String userName, Integer userId) {
-		super(userName, userId);
+	public Developer(String name, Integer id) {
+		super(name, id);
 		
 	}
 
